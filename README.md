@@ -69,3 +69,14 @@ QtWaitingSpinner was inspired by the [spin.js](http://fgnass.github.io/spin.js/)
 
 ### Forks
 There is also [QtWaitingSpinner for Python!](https://github.com/z3ntu/QtWaitingSpinner) Thanks to [z3ntu](https://github.com/z3ntu) for porting it.
+
+### NOTE
+
+    void setRoundness(qreal roundness); //类似四个角的弯曲程度，radius
+    void setMinimumTrailOpacity(qreal minimumTrailOpacity); //点的颜色透明度
+    void setTrailFadePercentage(qreal trail);   //圈的具有颜色的点的个数百分比
+    void setRevolutionsPerSecond(qreal revolutionsPerSecond);   //转圈的速度
+    void setNumberOfLines(int lines);   //多少个点
+    void setLineLength(int length); //点的长度
+    void setLineWidth(int width);   //点的宽度
+    void setInnerRadius(int radius);    //半径
